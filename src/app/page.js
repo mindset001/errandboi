@@ -20,12 +20,12 @@ export default function Home() {
        </div>
         </div>
       </div>
-      <div>
-        <div className="hidden md:flex justify-between px-8">
+      <div className="w-full overflow-hidden">
+        <div className="hidden md:flex justify-between px-2 lg:px-8">
           <Image src={Left} className=""/>
           <Image src={Right}/>
         </div>
-        <div className="flex justify-between px-8 md:hidden">
+        <div className="flex justify-between px-4 lg:px-8 md:hidden">
           <Image src={Left2}/>
           <Image src={Right2}/>
         </div>
