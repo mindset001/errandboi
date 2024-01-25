@@ -15,11 +15,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope:wght@300;400;500&family=Montserrat+Alternates:wght@100;200&family=Oswald&family=Ubuntu:wght@300;400&display=swap');
+
 
 body {
   background: url('../../public/images/back.png');
-  font-family: Montserrat Alternates;
 }
 
 @layer utilities {
